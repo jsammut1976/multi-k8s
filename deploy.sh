@@ -9,5 +9,5 @@ docker push jsammut/multi-server:$SHA
 docker push jsammut/multi-worker:$SHA
 kubectl apply -f k8s
 kubectl set image deployment/server-deployment server=jsammut/multi-server:$SHA
-kubectl set image deployment/client-deploymnet client=jsammut/multi-client:$SHA
+kubectl set image deployment/client-deployment client=jsammut/multi-client:$SHA
 kubectl set image deployment/worker-deployment worker=jsammut/multi-worker:$SHA
