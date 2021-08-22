@@ -13,6 +13,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         <p>
           John Sammut - Fibonacci calculator.
+          (running on Google Cloud Kubernetes Engine)
         </p>
         <p>
           Enter an index up to 40, press submit and refresh page.
